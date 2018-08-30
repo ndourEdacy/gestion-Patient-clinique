@@ -1,0 +1,289 @@
+.activation{
+	background:#64bc62;
+	height:60px;
+}
+body{
+	overflow:hidden;
+}
+#chemin{
+	background:#64bc62;
+	margin-top: -4%;
+	margin-left: 20px;
+	height:40px;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+.login{
+	padding-bottom:5%;
+	margin-top:10%;
+	margin-left:30%;
+	margin-right:30%;
+	min-width:600px;
+	width:auto;
+	height:460px;
+	background: white;
+}
+#form{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border:1px solid ;
+}
+#milieu{
+	padding: 15px;
+	border: solid 3px;
+	border-top-color: #f3f3f3;
+	margin-top: 20px;
+	border-bottom-color: #f3f3f3;
+	border-right-color: black;	
+	border-left-color: black;
+	padding: 20px;
+	margin-right: 6%;
+	margin-left: 1.5%;
+}
+
+#chemin a:hover{
+	text-decoration: none;
+	color:white;
+}
+#contenu{
+	min-width:800px;
+	position:relative;
+	float:right;
+	margin-left:20%;
+	width:80%;
+}
+#menu{
+	height:100%;
+}
+#profil{
+	width:22%;
+	background:#64bc62;
+	margin-left:-25%;
+	margin-bottom:-10%;
+	margin-top:-8%; 
+	padding-top: 6%; 
+	color:black;
+	font-size:22px;
+	
+	
+}
+
+#menu ul li{
+	list-style-type:none;
+	margin-left:12%;
+	color:white;
+	height:40px;
+	margin-bottom:-5%;
+	margin-top:-5%;
+}
+#menu ul li:hover{
+	list-style-type:none;
+	margin-left:10%;
+	color:white;
+	height:40px;
+	
+	
+}
+#action{
+	width:12%;
+	height:90%;
+	min-width:200px;
+}
+#menu ul li a{
+	margin-left: 5px;
+	font-size: 19px;
+	color:black;	
+	height:100%;
+	margin-bottom:10%;
+}
+#menu ul li a:hover{
+	margin-left: 5px;
+	font-size: 19px;
+	color:black;
+	text-decoration: none;
+	height:100%;
+}
+#deconnexion{
+	margin-left: 92%;
+	margin-top: -2%;
+	min-width: 200px;
+}
+#deconnexion a:hover{
+	text-decoration: none;
+	color:black;
+}
+#menu ul{
+	margin-left: -28%;
+	margin-top: 10%;
+	position:absolute;
+	background: #64bc62;
+	height:100%;
+	width:25%;
+	min-height: 760px;
+}
+
+div.cadre{
+	height:auto;
+	background: #B0E9D7;
+	padding-bottom: 10px;	
+	border:1px dotted;
+	padding: 10px;
+	margin:10px;
+}
+table.tabUsers th{
+	background:#53AE91;
+	padding:5px;
+	border:1px dotted ;
+} 
+table.tabUsers td{
+	background:white;
+	padding:5px;
+	border:1px dotted ;
+} 
+table.tabPersonnel{
+	width: 100%;
+}
+table.tabPersonnel th{
+	border:1px dotted gray;
+	background: #53AE91;
+	padding:5px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color:black;
+}
+h4{
+	padding-left: 20px;
+	font-style:italic;
+	font-size: 22px;
+	padding-top: 10px;
+	
+}
+table.tabUsers{
+	width:100%;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+table.tabDossier{
+	width:100%;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+table.tabDossier th{
+	background:#53AE91;
+	padding:5px;
+	border:1px dotted ;
+}
+table.tabDossier td{
+	background:white;
+	padding:5px;
+	border:1px dotted ;
+}
+table.tabDossier #motif{
+	width:300px;
+	padding:5px;
+	border:1px dotted;
+}
+#dossier select{
+	border-radius: 5px;
+	font-size:17px;
+	width: 350px;
+	height: 30px;
+}
+#dossier input{
+	border-radius: 5px;
+	font-size:17px;
+	width: 350px;
+	height: 30px;
+}
+#dossier textarea{
+	border-radius: 5px;
+	font-size:17px;
+	width: 350px;
+	height: 130px;
+}
+#dossier{
+	width:80%;
+	height:auto;
+	background: #B0E9D7;
+	margin-left: 300px;
+	padding-bottom: 10px;
+	margin-top:30px;
+}
+#dossier{
+	width:80%;
+	height:auto;
+	background: #B0E9D7;
+	margin-left: 300px;
+	padding-bottom: 10px;
+	margin-top:30px;
+}
+#admin{
+	height:auto;
+	background: #B0E9D7;
+	padding-bottom: 10px;	
+	border:1px dotted;
+	padding: 10px;
+	margin:10px;
+}
+#admin select{
+	border-radius: 5px;
+	font-size:17px;
+	width: 350px;
+	height: 30px;
+}
+#admin input{
+	border-radius: 5px;
+	font-size:17px;
+	width: 350px;
+	height: 30px;
+}
+#admin textarea{
+	border-radius: 5px;
+	font-size:17px;
+	width: 350px;
+	height: 130px;
+}
+
+#discution{
+		position: fixed;
+		right: 5px;
+		bottom: 0;
+		width: 300px;
+		border-top: 1px solid rgb(211,211,211);
+		z-index: 1;
+		opacity: 1;
+		border: 1px solid  #64bc62;
+		background-color:white;
+		/*//height: 120px;*/
+		
+	}
+
+	#msg_discution{
+		display: block;
+		background-color: #64bc62;
+		width: 300px;
+		height: 35px;
+		padding-left: 35px;
+		padding-right: 35px;
+        cursor: pointer;
+       
+	}
+	#user_connect{
+		display: none;
+		height: 300px;
+		width: 100%;
+		z-index: 1;
+		overflow-y:scroll;
+		overflow-x:hidden;
+	}
+	#mesMessage{
+		overflow-y:scroll;
+		height:150px
+		}
